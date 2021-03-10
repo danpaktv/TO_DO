@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TO_DO2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="project">
+            <h2>Создать проект</h2>
+            <ul>
+                <form>
+                    <li><input required placeholder="Название проекта" class = "name_project" type ="text"></li>
+                    <li><textarea placeholder="Описание" class = "discript_project" type ="text"></textarea></li>
+                    <li>
+                        <ul>
+                            <li><input placeholder="Задачи" class = "tasks" type ="text"></li>
+                        </ul>
+                    </li>
+                    <li><button class = "button">ДОБАВИТЬ ЗАДАЧИ</button></li>
+                    <li><button class = "button">ДОБАВИТЬ ПРОЕКТ</button></li>
+                </form>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="menu">
+        <button id = "button" onclick="showmenu()" class="menu_button"></button>
+    </div>
+</body>
+</html>
+<script src="./script.js"></script>

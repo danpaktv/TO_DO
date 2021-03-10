@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body{
+    background: url(./image/background.png) no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.container{
+    max-width: 1140px;
+    position: relative;
+    margin: 0 auto;
+}
+h2{
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+li{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+.name_project {
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    border: none;
+    padding: 10px 0px;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid #3c72ff;
+}
+.discript_project{
+    width: 458px ;
+    min-height: 115px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #3c72ff;
+    border-radius: 5px;
+    resize: none
+}
+ul li+li{
+    padding-top: 35px;
+}
+.tasks{
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    border: none;
+    padding: 10px 0px;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid #3c72ff;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    height: 50px;
+    width: 250px;
+    background: #3c72ff;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.menu{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 6%;
+    height: 100vh;
+    background: #1e55e6;
+    opacity: 0.8;
+}
+.menu_button{
+    position: absolute;
+    right: 30px;
+    top: 80px;
+    background: url(./image/menu_button.svg);
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    
+}

@@ -1,0 +1,20 @@
+<svg id="меню" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e4e9f6;
+      }
+
+      .cls-2 {
+        fill: #3c72ff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="тело_кнопки_копия" data-name="тело кнопки копия" class="cls-1" width="40" height="40" rx="5" ry="5"/>
+  <g id="Группа_1" data-name="Группа 1">
+    <path id="Прямоугольник_2" data-name="Прямоугольник 2" class="cls-2" d="M35.659,1276.88H63.408v1.11H35.659v-1.11Z" transform="translate(-29 -1268)"/>
+    <path id="Прямоугольник_2_копия" data-name="Прямоугольник 2 копия" class="cls-2" d="M35.659,1287.98H63.408v1.11H35.659v-1.11Z" transform="translate(-29 -1268)"/>
+    <path id="Прямоугольник_2_копия_2" data-name="Прямоугольник 2 копия 2" class="cls-2" d="M35.659,1299.08H63.408v1.11H35.659v-1.11Z" transform="translate(-29 -1268)"/>
+  </g>
+</svg>
